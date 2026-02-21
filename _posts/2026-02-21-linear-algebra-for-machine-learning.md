@@ -22,3 +22,26 @@ And this is exactly why linear algebra sits at the heart of machine learning. Ne
 This article is about Explaining myself - rebuilding linear algebra from that perspective. Not as arithmetic, but as geometry. 
 
 Lets follow the below roadmap.
+
+![Roadmap to understand Linear Algebra Geometrically](/assets/lib/img/Roadmap.png)
+
+<h2>Vectors</h2>
+
+A vector is a fundamental building block of Linear Algebra.
+
+Vectors can be defined in more than one context:
+In *Physics*, Its a entity with a magnitude and a direction
+In *Computers*, its just a fancy word for ordered lists
+In *Math*, it can be a representation of a point in space
+
+Lets say a vector, $v = \begin{bmatrix}4 \\ 3\end{bmatrix}$ can be represnted geometrically on the number lines as
+
+![](/assets/lib/img/LA_1.png)
+
+We can understand it as a representation on how to reach to the end of the tip of the vector starting from the origin. So to reach to the tip of above vector, we need to move 4 units on x-axis and 3 units on the y-axis and we reach there.
+
+Same logic applies in three dimensional space as well,
+
+![](/assets/lib/img/LA_2.png)
+
+
